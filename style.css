@@ -1,0 +1,182 @@
+header {
+max-width:100%;
+}
+
+nav a {
+    display:inline;
+    margin-top: 10;
+    padding: 10px 16px;
+    background-color: #3f957a;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px ;
+}
+body {
+    background-color: rgb(26, 58, 53);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c7d7cc;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#c2fbf0;
+    text-align: center;
+
+}
+p {
+    font-size: 20px;
+    text-align: left;
+}
+h3 {
+    font-size: 23px;
+    color:#7cbd9f
+}
+p {
+    line-height: 1.5;
+}
+
+.daftar-produk {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.produk {
+    background-color: #4c939794;
+    padding: 15px;
+    border-radius: 10px;
+    text-align:center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0,1);
+}
+
+.produk img {
+    width: 150px;
+    height:auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.produk h2 {
+    font-size: 35px;
+    color: #a5f4ef;
+}
+.produk h3 {
+    font-size: 18px;
+    color: #2c3e50;
+}
+.harga {
+    font-weight: bold;
+    color: #95f8d0
+}
+.deskripsi {
+    font-size :15px;
+    color: #ffe9e9;
+}
+
+.artikel {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #4c939794;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+
+    line-height: 1.8;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+h2 {
+    font-size:30px;
+    color:#ecfffe
+}
+p {
+    color: #e2f4f3;
+}
+.artikel .penulis {
+    font-style: italic;
+    color: #93fdd8;
+    margin-bottom: 20px;
+}
+.artikel .sampul {
+    width: 180px;
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 1px solid #d0fff6;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.artikel blockquote {
+    font-style: italic;
+    padding-left: 20px;
+    margin: 20px;
+    border-left: 4px solid #c0daeb;
+    color: #fff9f9;
+    background-color: #4c939794;
+}
+.btn-kembali{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 16px;
+    background-color: #21ab7f;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px ;
+}
+.btn-kembali:hover {
+    background-color: #6acaad;
+}
+
+
+.formulir {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #4c939794;
+    border-radius: 10px;
+    margin-top: 40px;
+    
+}
+form label {
+    display:block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+form input,
+form select,
+form textarea {
+    width:97%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border:2px solid #7fbaaa;
+}
+form button {
+    background-color: #21ab7f;
+    color: #d6f7f5;
+    padding: 10px 15px;
+    border:none;
+    border-radius:5px ;
+    border: 2px solid #46be94;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:#46be94;
+}
+
+button {
+     background-color: #21ab7f;
+    color: #d6f7f5;
+    padding: 10px 15px;
+    border:none;
+    border-radius:5px ;
+    border: 2px ;
+    cursor: pointer;
+}
+
+a {
+    color: #d6f7f5;
+    cursor: pointer;
+}
+
